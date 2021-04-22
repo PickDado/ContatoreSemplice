@@ -1,0 +1,98 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.center2{
+    display: flex;
+    
+    width: 100%;
+    justify-content: center; 
+    padding: 5px;
+    padding-bottom: 20px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.display{
+    font-size: xx-large;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    color: honeydew;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Zen Dots', cursive;
+}
+
+.console{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    color: honeydew;    
+    }
+
+.minum{
+    padding: 0 100px 0 100px;
+    border-radius: 0 0 0 50px;
+    background-color: rgb(61, 101, 102);
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    width: 175px;
+    font-family: 'Zen Dots', cursive;
+    
+}
+
+
+
+
+.plus{
+    padding: 0 100px 0 100px;
+    border-radius: 0 0 50px 0;
+    background-color: crimson;
+    user-select: none;
+    justify-content: center;
+    width: 175px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.minum:hover{
+    background-color: rgb(45, 72, 73);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    }
+
+.minum:active{
+    background-color: rgb(58, 58, 58);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.plus:hover{
+    background-color: rgb(148, 14, 41);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.plus:active{
+    background-color: rgb(58, 58, 58);
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+
+
+body{
+    background-color:rgb(167, 167, 167);
+}
+
+.reset{
+    font-size: xx-large;
+    user-select:none;
+    position: relative;
+    bottom: 80px;
+    left: 180px;
+}
